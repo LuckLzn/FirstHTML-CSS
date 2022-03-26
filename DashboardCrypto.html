@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySite</title>
+    <link rel="icon" href="MySiteFiles/256x256bb.jpg">
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    
+</head>
+<body class = "site">
+    <header class = sidebar>
+        <img src = "MySiteFiles/Logo.png" alt = "Logo" title = "Logo" class = "Logo">
+        <div class = "Menu">
+           <div class = Dash>
+               <button type = "button" id = button1>
+                <img src = "MySiteFiles/Home.png" height = "32"> <h3>Dashboard</h3>
+               </button>
+           </div>
+           <div class = 'Exchange'>
+               <button type = "button" id = button2>
+                <img src = "MySiteFiles/Swap.png" height="32"> <h3>Exchange</h3>
+               </button>
+           </div>
+           <div class = 'Wallet'>
+               <button type = "button" id="button3">
+                <img src = "MySiteFiles/Wallet.png" height="32"> <h3>Wallet</h3>
+               </button>
+           </div>
+           <div class = 'Statistics'>
+               <button type = "button" id="button4">
+                <img src = "MySiteFiles/Activity.png" height="32"> <h3>Statistics</h3>
+               </button>
+           </div>
+           <div class = 'Profile'>
+               <button type = "button" id="button5">
+                <img src = "MySiteFiles/Profile.png" height="32"> <h3>Profile</h3>
+               </button>
+           </div>
+           <div class = 'Settings'>
+               <button type = "button" id="button6">
+                <img src = "MySiteFiles/Setting.png" height="32"> <h3>Settings</h3>
+               </button>
+           </div>
+           <div>
+               <button type="button" id="button7">
+                  <img src="MySiteFiles/Logout.png" height="32">  <h3>Logout</h3>
+               </button>
+           </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="Principal">
+            <div class="SearchBar">
+                <button type="button" class = searchbutton>
+                    <img src="MySiteFiles/Search.png" height="28" class="imagesearch">
+                </button>
+                <input type="search" id="query" name="q" placeholder= "Search Anything" aria-label="Search through site content" >
+            </div>
+            <div>
+                <img src="MySiteFiles/Assign Expert.png" class="expert">
+                <button type="button" class="find">
+                    <h3>Find Expert</h3>
+                </button>
+                <h1 class="portext">My Portfolio</h1>
+                <div class="Coins">
+                    <div class="Bitcoin">
+                        <button type="button" class="bit"><img src="MySiteFiles/bi_currency-bitcoin.png" height="26"></button>
+                        <div class="pair">
+                            <h2 class="btcpairtxt">  <strong class="str">BTC</strong>/USDT</h2>
+                            <p>Bitcoin</p>
+                        </div>
+                        <div class="btcdata">
+                            <h2>$44867</h2>
+                            <p class="variationbtc">+1.5%</p>
+                        </div>
+                    </div>
+                    <div class="ethereum">
+                        <button type="button" class="eth"><img src="MySiteFiles/ph_currency-eth.png" height="26"></button>
+                        <div class="pair">
+                            <h2 class="ethpairtxt">  <strong class="str">BTC</strong>/USDT</h2>
+                            <p>Ether</p>
+                        </div>
+                        <div class="ethdata">
+                            <h2>$3112.06</h2>
+                            <p class="variationeth">-0.5%</p>
+                        </div>
+                    </div>
+                    <div class="bnb">
+                        <button type="button" class="bina"><img src="MySiteFiles/simple-icons_binance.png" height="26"></button>
+                        <div class="pair">
+                            <h2 class="bnbpairtxt">  <strong class="str">BNB</strong>/USDT</h2>
+                            <p>Binance Coin</p>
+                        </div>
+                        <div class="bnbdata">
+                            <h2>$412.03</h2>
+                            <p class="variationbnb">+0.4%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="graph">
+                    <img src="MySiteFiles/graph.png" height="526">
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <div class="AccontDetails">
+        <div class="accountbox">
+            <div class="profile">
+                <img src="MySiteFiles/Notification.png" class="noti">
+                <div class="account">
+                    <img src="MySiteFiles/Ellipse 4.png" class="profilephoto">
+                    <p class="name">Lucas</p>
+                    <button type="button" class="arrowb">
+                        <img src="MySiteFiles/Arrow - Down 2.png" class="arrow">
+                    </button>
+                </div>
+            </div>
+            <h1 class="acc">Accounts</h1>
+            <button type="button" class="balance">
+                $1445.00
+                <p class="var">+1.45%</p>
+            </button>
+            <div class="actions">
+                <button type="button" class="deposit">
+                    <img src="MySiteFiles/Arrow - Down.png" alt="">
+                    Deposit
+                </button>
+                <button type="button" class="draw">
+                    <img src="MySiteFiles/Arrow - Up.png" alt="">
+                    Withdraw
+                </button>
+            </div>
+            <h1 class="trastitle">Recent Transactions</h1>
+            <div class="transactions">
+                <div class="tr1">
+                <button type="button" class="tr1b"><img src="MySiteFiles/bi_currency-bitcoin.png" height="26"></button>
+                        <div class="tr1c">
+                            <h2 class="tr1txt">  <strong class="str">Bitcoin Buy</h2>
+                            <p class="d1">Today</p>
+                        </div>
+                        <div class="data1">
+                            <p>+2.02358BTC<p>
+                        </div>
+                </div>
+                <div class="tr2">
+                    <button type="button" class="tr2b"><img src="MySiteFiles/ph_currency-eth.png" height="26"></button>
+                            <div class="tr2c">
+                                <h2 class="tr1txt">  <strong class="str">Ethereum Sell</h2>
+                                <p class="d1">2 hours ago</p>
+                            </div>
+                            <div class="data2">
+                                <p>-1.936ETH<p>
+                            </div>
+                </div>
+                <div class="tr3">
+                    <button type="button" class="tr3b"><img src="MySiteFiles/ph_currency-eth.png" height="26"></button>
+                            <div class="tr3c">
+                                <h2 class="tr1txt">  <strong class="str">Ethereum Buy</h2>
+                                <p class="d1">3 days ago</p>
+                            </div>
+                            <div class="data1">
+                                <p>+2.671ETH<p>
+                            </div>
+                </div>
+            </div>        
+        </div>
+    </div>
+</body>
+</html>
